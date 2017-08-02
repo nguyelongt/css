@@ -6,7 +6,10 @@
 }
 
 #about-text {
-  
+  font-family: tahoma, arial, sans-serif;
+  font-size: 14pt;
+  color: blue;
+  text-align: center;
 }
 
 #paragraph {
