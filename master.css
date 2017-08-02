@@ -1,8 +1,12 @@
-#bio-name {
+#home-page-info, #bio-name, #about-page {
   font-family: tahoma, arial, sans-serif;
   font-size: 14pt;
   color: orange;
   text-align: center;
+}
+
+#about-text {
+  
 }
 
 #paragraph {
@@ -25,10 +29,38 @@
 
 }
 
-#table.center, td {
+
+div#table, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 5px;
+}
+
+table.center {
   margin-left:auto;
   margin-right:auto;
+}
+
+div#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #454545;
+  overflow: hidden;
+}
+
+div#menu li {
+  float: left;
+
+}
+
+div#menu a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#menu li a:hover {
+  background-color: red;
 }
