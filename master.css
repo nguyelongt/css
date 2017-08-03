@@ -1,4 +1,4 @@
-#home-page-info, #bio-name, #about-page {
+#home-page-info, #bio-name, #about-page, #proscon {
   font-family: tahoma, arial, sans-serif;
   font-size: 14pt;
   color: orange;
@@ -66,4 +66,22 @@ div#menu a {
 
 div#menu li a:hover {
   background-color: red;
+}
+
+#protext, #constext{
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+}
+
+#prolist, #conlist{
+  width: 49.3%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#ullist1, #ullist2 {
+  list-style-type: none;
 }
